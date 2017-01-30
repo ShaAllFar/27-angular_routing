@@ -3,19 +3,30 @@ $padding-std: 2%;
 html,body{
   max-width: 960px;
   min-height: 100%;
-  font-size: 2vw;
+  height: 100%;
+  font-size: 1.5vw;
   margin: 0 auto;
 }
-main{
-  height: 80%;
+
+header{
+  width: 100%;
 }
+
+
+main{
+  // min-height: 10%;
+  // padding: $padding-std;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
 
 h1{
   font-size: 6vw;
   text-transform: capitalize;
   font-weight: bold;
   border-bottom: 10px solid #000;
-  width:100%;
   padding: $padding-std;
   text-align: center;
   background: #888;
@@ -28,10 +39,14 @@ h2{
   text-transform: capitalize;
 }
 
+p{
+  margin: $padding-std;
+  text-indent: 10mm;
+}
+
 footer{
   text-align: center;
   background-color: #444;
   padding: $padding-std;
-  width: 100%;
   color: #fff;
 }

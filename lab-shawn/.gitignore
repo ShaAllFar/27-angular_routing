@@ -3,7 +3,6 @@ Created by https://www.gitignore.io/api/macos,node,vim,windows,linux
 
 build
 node_modules
-webpack.config.js
 karma.conf.js
 .env
 .babelrc
